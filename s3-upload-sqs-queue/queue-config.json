@@ -1,0 +1,21 @@
+{
+  "QueueConfigurations": [
+    {
+      "Id": "SQSBatchQueue",
+      "QueueArn": "arn:aws:sqs:us-east-1:502798736944:SQSBatchQueue",
+      "Events": [
+        "s3:ObjectCreated:*"
+      ],
+      "Filter": {
+        "Key": {
+          "FilterRules": [
+            {
+              "Name": "Suffix",
+              "Value": "jpg"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

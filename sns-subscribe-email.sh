@@ -27,7 +27,7 @@ then
     exit 1
 fi
   
-echo "${EMAIL} was subscripted succesfully to ${TOPIC_NAME}."
+echo "${EMAIL} was subscribed succesfully to ${TOPIC_NAME}."
 exit 0
 
 
