@@ -2,7 +2,7 @@
   "QueueConfigurations": [
     {
       "Id": "SQSBatchQueue",
-      "QueueArn": "arn:aws:sqs:us-east-1:502798736944:SQSBatchQueue",
+      "QueueArn": <sqs-arn>,
       "Events": [
         "s3:ObjectCreated:*"
       ],
